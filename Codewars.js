@@ -52,3 +52,16 @@ function stringToArray(string){
 function makeUpperCase(str) {
   return str.toUpperCase();
 }
+
+//Complete the solution so that it reverses the string value passed into it.
+
+function solution(str){
+  return str.split("").reverse().join("");
+}
+
+//Simple, remove the spaces from the string, then return the resultant string.
+
+function noSpace(x){
+  x = x.replace(/\s/g,'');
+  return x;
+}
