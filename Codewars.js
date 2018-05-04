@@ -41,3 +41,14 @@ function basicOp(operation, value1, value2)
   return value1 / value2
   }
 }
+
+//Write a function to split a string and convert it into an array of words.
+function stringToArray(string){
+	return string.split(' ');
+}
+
+//Write function makeUpperCase.
+
+function makeUpperCase(str) {
+  return str.toUpperCase();
+}
